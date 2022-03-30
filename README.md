@@ -1,6 +1,4 @@
-# Nuxt 3 Minimal Starter
-
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
+# Nuxt 3 with Tailwind, Eslint, Prettier, Pinia and Typescript
 
 ## Setup
 
