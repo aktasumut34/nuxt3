@@ -13,7 +13,6 @@
 <script setup lang="ts">
 import { useCounter } from '~~/store';
 const counter = useCounter();
-console.log(counter.count);
 </script>
 
 <style scoped></style>
