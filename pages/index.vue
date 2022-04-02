@@ -1,10 +1,18 @@
 <template>
   <div class="m-4 flex items-center gap-2">
-    <button class="bg-blue-500 p-2 text-white" @click="counter.increment(-1)">
+    <button
+      id="decrementButton"
+      class="bg-blue-500 p-2 text-white"
+      @click="counter.increment(-1)"
+    >
       -
     </button>
     <span>{{ counter.count }}</span>
-    <button class="bg-blue-500 p-2 text-white" @click="counter.increment(1)">
+    <button
+      id="incrementButton"
+      class="bg-blue-500 p-2 text-white"
+      @click="counter.increment(1)"
+    >
       +
     </button>
   </div>
