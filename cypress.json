@@ -1,6 +1,7 @@
 {
+  "integrationFolder": "tests/pages",
   "component": {
     "testFiles": "**/*.spec.ct.{js,ts,jsx,tsx}",
-    "componentFolder": "tests"
+    "componentFolder": "tests/components"
   }
 }
