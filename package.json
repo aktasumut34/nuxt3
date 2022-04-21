@@ -8,6 +8,8 @@
     "lint-and-fix": "eslint . --ext .ts,.vue --fix"
   },
   "devDependencies": {
+    "@cypress/vite-dev-server": "^2.2.2",
+    "@cypress/vue": "^3.1.1",
     "@nuxt/webpack-builder": "^3.0.0-rc.1",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
     "@typescript-eslint/parser": "^5.20.0",
@@ -15,6 +17,7 @@
     "cypress": "^9.5.4",
     "eslint": "^8.13.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-nuxt": "^3.2.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.6.0",
     "nuxt": "npm:nuxt3@latest",
@@ -22,10 +25,7 @@
     "prettier": "^2.6.2",
     "prettier-plugin-tailwindcss": "^0.1.10",
     "tailwindcss": "^3.0.24",
-    "typescript": "^4.6.3",
-    "@cypress/vite-dev-server": "^2.2.2",
-    "@cypress/vue": "^3.1.1",
-    "eslint-plugin-nuxt": "^3.2.0"
+    "typescript": "^4.6.3"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.1.8",
